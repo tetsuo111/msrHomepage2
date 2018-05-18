@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'AxisStd';
+	src: url('font/AxisStd-Light-1.otf') format('truetype');
+}
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+	line-height: 1.6em;
+	font-family: 'AxisStd';
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+/* body ================================== */
+body {
+	width: 950px;
+	margin: 0 auto;
+	background: url(img/bg_header.gif) repeat-x top left;
+}
+/* header ================================== */
+header {
+	height: 70px;
+}
+header #headerWrapper {
+	padding: 5px;
+}
+header #headerWrapper div.logo {
+	float: left;
+	width: 35%;
+}
+header #headerWrapper div.nav {
+	float: right;
+	width: 60%;
+}
+header #headerWrapper div.logo img {
+	height: 60px;
+}
+header #headerWrapper div.nav nav {
+	height: 60px;
+}
+header #headerWrapper div.nav nav ul {
+	display: table;
+	height: 60px;
+}
+header #headerWrapper div.nav nav ul li {
+	display: table-cell;
+	min-width: 100px;
+	height: 60px;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+header #headerWrapper div.nav nav ul li a img {
+	height: 60px;
+}
+/* main ================================== */
+#main {
+	color: #7F7F7F;
+	clear: both;
+}
+/* footer ================================== */
+#footer {
+	padding-top: 1em;
+	height: 3em;
+	text-align: center;
+	font-size: 12px;
+	clear: both;
+}

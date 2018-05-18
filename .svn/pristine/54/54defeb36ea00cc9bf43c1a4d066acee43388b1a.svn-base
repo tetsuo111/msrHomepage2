@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>株式会社マインドセットリサーチ</title>
+<meta name="description" content="今や、職場のメンタルヘルス不調者への対策は急務であり、企業にとっての経営課題の一つとなっています。平成27年12月より、厚生労働省主導によるストレスチェック制度もいよいよ開始となりました。しかし・・・、ストレスチェックテストの点数だけでは根本的な解決の糸口が見えてこないのが現実です・・・。当社では、個人のメンタルヘルスの状態を測定し、心の状態や個人固有の心理特性など、時系列に可視化できるメンタルヘルス測定システムを開発し提供します。当システムには、特許を取得した、メンタルヘルスの状態を測定・可視化する解析エンジン「COCOLOMI」を搭載し、メンタルヘルスを不調に至らしめている原因や解決の糸口を分析できる、これまでにない新しい独自のシステムです。さらに、分析結果から得られる個人の心理特性に応じた研修・トレーニング、コンサルティング、カウンセリングなど、より教育効果、改善効果を高める専門ソリューションサービスを提供し、企業のメンタルヘルス対策における課題解決、人材・組織の生産性改善・活性化、ストレスチェック制度運用支援などを行います。">
+<meta name="keywords" content="マインドセットリサーチ,メンタルヘルス,ココロミ,COCOLOMI,mindset-research,メンタル不調者,カウンセラー,産業医,筑波大学発ベンチャー">
+<link rel="stylesheet" href="style.css">
+<style>
+#main .topMessage {
+	text-align: center;
+	margin: 4em 0;
+}
+#main .topMessage img {
+	width: 85%;
+}
+#main section .compSec01_img img,
+#main section .compSec02_img img {
+	width: 100%;
+}
+#main section .compSec01_conts,
+#main section .compSec02_conts {
+	padding: 2em;
+}
+#main section table {
+	width: 100%;
+	border-top: 0.75px solid #D3D3D3;
+	border-collapse: collapse;
+}
+#main section table tr {
+	border-bottom: 0.75px solid #D3D3D3;
+}
+#main section table tr th {
+	width: 25%;
+	text-align: left;
+	font-weight: normal;
+}
+#main section table tr th,
+#main section table tr td {
+	padding: 1em;
+}
+#main section a {
+	color: #00A39B;
+}
+</style>
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-76012426-1', 'auto');
+	ga('send', 'pageview');
+</script>
+</head>
+<body>
+<header>
+	<div id="headerWrapper">
+		<div class="logo"><a href="index.html"><img src="img/logo.png" alt="ロゴ" /></a></div>
+		<div class="nav">
+			<nav>
+				<ul>
+					<li class="nav01"><a href="company.html"><img src="img/nav_company_on.png" /></a></li>
+					<li class="nav02"><a href="product.html"><img src="img/nav_product.png" onmouseover="this.src='img/nav_product_on.png'" onmouseout="this.src='img/nav_product.png'" /></a></li>
+					<li class="nav03"><a href="solution.html"><img src="img/nav_solution.png" onmouseover="this.src='img/nav_solution_on.png'" onmouseout="this.src='img/nav_solution.png'" /></a></li>
+					<li class="nav04"><a href="development.html"><img src="img/nav_deveplopment.png" onmouseover="this.src='img/nav_deveplopment_on.png'" onmouseout="this.src='img/nav_deveplopment.png'" /></a></li>
+					<li class="nav05"><a href="inquiry.html"><img src="img/nav_inquiry.png" onmouseover="this.src='img/nav_inquiry_on.png'" onmouseout="this.src='img/nav_inquiry.png'" /></a></li>
+				</ul>
+			</nav>
+		</div>
+	</div>
+</header>
+<div id="main">
+	<section style="margin-top: 6em;">
+		<div class="compSec01_img" style="padding: 0;">
+			<img src="img/compSec01_img01.png" style="width: 18%;" alt="会社概要" />
+		</div>
+		<div class="compSec01_conts" style="width: 90%">
+			<table>
+				<tbody>
+					<tr>
+						<th>社名</th>
+						<td>株式会社マインドセットリサーチ　（略称：MSR）</td>
+					</tr>
+					<tr>
+						<th>設立</th>
+						<td>2015年11月11日</td>
+					</tr>
+					<tr>
+						<th>所在地</th>
+						<td>〒170-0013 東京都豊島区東池袋2-39-2大住ビル5F</td>
+					</tr>
+					<tr>
+						<th>代表電話番号</th>
+						<td>03-5950-5683</td>
+					</tr>
+					<tr>
+						<th>役員</th>
+						<td>代表取締役　紙田　剛<br>取　締　役　松本　敦子</td>
+					</tr>
+					<tr>
+						<th>顧問</th>
+						<td>筑波大学名誉教授　/　株式会社ＳＤＳ　代表取締役社長<br>宗像　恒次 博士</td>
+					</tr>
+					<tr>
+						<th>大学発ベンチャー登録</th>
+						<td>筑波大学発ベンチャー<br>（<a href="http://www.sanrenhonbu.tsukuba.ac.jp/spin_offs/year/#h27" target="_blank">筑波大学産学連携本部ホームページ</a>）</td>
+					</tr>
+					<tr>
+						<th>主な事業内容</th>
+						<td>
+							<ul style="margin-left: 1em; list-style-type: square;">
+								<li>心理学・脳科学をベースとしたメンタルヘルス対策、人材育成、組織マネジメントのコンサルティング・アドバイサリー</li>
+								<li>メンタルヘルス対策の研修・トレーニング</li>
+								<li>メンタルヘルスに関わる情報システム企画・開発・販売</li>
+								<li>個人/組織の心理アセスメント、分析調査</li>
+								<li>ＥＡＰ(従業員支援プログラム)サービス</li>
+								<li>カウンセリングサービス</li>
+								<li>メンタルヘルス専門家養成</li>
+								<li>人材コンサルティング</li>
+							</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+	<section style="margin-top: 3em;">
+		<div class="compSec02_img" style="padding: 0;">
+			<img src="img/compSec02_img01.png" style="width: 28%;" alt="協力パートナー" />
+		</div>
+		<div class="compSec01_conts" style="width: 90%">
+			<table>
+				<tbody>
+					<tr>
+						<th><p>筑波大学発ベンチャー<br><a href="http://www.kksds.com/" target="_blank">株式会社SDS</a></p><br><p>代表取締役社長<br>宗像恒次 博士</p></th>
+						<td>
+							<p>筑波大学名誉教授宗像博士が開発したSATメソッドの普及目的として設立。SATカウンセラーの育成、国内外でのセミナー開催、SAT療法センターでの心理治療など。</p>
+							<br>
+							<p>宗像恒次博士が学会長を務める<a href="http://www.healthcounseling.org/" target="_blank">ヘルスカウンセリング学会</a>の公認ヘルスカウンセラーは、厚労省「心の耳」事業資格として認定を受けており、<a href="https://kokoro.mhlw.go.jp/qualification/" target="_blank">厚労省ホームページ</a>に掲載されています。</p>
+						</td>
+					</tr>
+					<tr>
+						<th><p>筑波大学<br>情報学群<br>情報メディア創成学類<br><a href="http://inolab.slis.tsukuba.ac.jp/" target="_blank">インタラクション研究室</a></p><br><p>井上智雄教授</p></th>
+						<td>人と人とのコミュニケーションや協同の理解に基づいて、インタラクションを拡張する研究・・・次世代社会情報環境の創出に向けた研究</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</section>
+</div>
+<footer id="footer">
+	Copyright (C) 2016 mind set research Inc. All Rights Reserved.
+</footer>
+</body>
+</html>
