@@ -1,0 +1,132 @@
+/******************
+共通
+*******************/
+.fl7{
+	position: relative;
+	float: left;
+	width: 70%;
+	padding: 0 15px 0 0;
+}
+.fl5{
+	position: relative;
+	float: left;
+	width: 25%;
+	padding: 0 0 0 15px;
+}
+/*テキストの連結のために作成*/
+.fr5{
+	position: relative;
+	float: right;
+	width: 25%;
+	padding: 0 0 0 15px;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	min-height: 1px;
+	clear: both;
+}
+.title{
+	background-image: url("../img/titleLogo.png");
+	background-repeat: no-repeat;
+	background-size: 4%;
+	background-position: left center;
+	width: 100%;
+	padding: 20px 0 20px 70px;
+	margin: 5em 0 0 0;
+}
+.title h1{
+	font-size: 30px;
+	color: #747474;
+	font-weight: 600;
+}
+.subTitle{
+	padding: 0 0 20px 0;
+	width: 100%;
+}
+.subTitle::after{
+	content: "";
+	height: 5px;
+	width: 100px;
+}
+.subTitle h2{
+	font-size: 25px;
+	color: #747474;
+	font-weight: 600;
+	padding: 0 0 10px 0;
+}
+.subTitle p{
+	font-size: 20px;
+	color: #ff7200;
+	font-weight: 600;
+}
+.subTitle .subTitleLogo{
+	background-image: url("../img/mSwitch.png");
+	background-repeat: no-repeat;
+	background-size: 18%;
+	background-position: left center;
+}
+.subTitle .subTitleLogo p{
+	padding: 0 0 0 200px;
+}
+.title03{
+	font-size: 18px;
+	font-weight: 600;
+	color: #0070c0;
+}
+.separator {
+	height: 3px;
+	width: 340px;
+	margin: 15px 0px;
+	background: #eeeeee;
+	position: relative;
+}
+.separator:after {
+	position: absolute;
+	left:0;
+	bottom:0;
+	height: 3px;
+	width: 100px;
+	background: #ff7200;
+	content:"";
+}
+.img{
+	text-align: center;
+}
+.list{
+	list-style: none;
+}
+.table.table01{
+	
+}
+
+.topSec01_conts .text p:not(:last-child),
+.prdSec01_conts .text p:not(:last-child),
+.prdSec01_VR .text p:not(:last-child){
+	padding: 0 0 10px 0;
+}
+/******************
+index.html
+*******************/
+.topSec01_conts{
+	display: inline-block;
+	vertical-align: top;
+	width: 100%;
+}
+.topSec01_conts .text p,
+/******************
+product.html
+*******************/
+.prdSec01_conts .text p,
+.prdSec01_VR .text p{
+	line-height: 30px;
+}
+
+/******************
+solution.html
+*******************/
+
+.solSec01_conts .list{
+	padding: 0 0 0 100px;
+}
+
