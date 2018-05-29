@@ -4,7 +4,6 @@
 	font-family: 'AxisStd';
 	src: url('font/AxisStd-Light-1.otf') format('truetype');
 }
-
 * {
 	margin: 0;
 	padding: 0;
@@ -19,10 +18,9 @@ h1,h2,h3,h4,h5,h6 {
 body {
 	width: 950px;
 	margin: 0 auto;
-	background: url(img/bg_header.gif) repeat-x top left;*/
+	background: url(img/bg_header.gif) repeat-x top left;
 }
 /* header ================================== */
-
 header {
 	height: 70px;
 }
@@ -58,162 +56,11 @@ header #headerWrapper div.nav nav ul li {
 header #headerWrapper div.nav nav ul li a img {
 	height: 60px;
 }
-
 /* main ================================== */
 #main {
 	color: #7F7F7F;
 	clear: both;
 }
-#main .topImg {
-	padding: 20px 0;
-	text-align: center;
-}
-#main .topImg img {
-	display: inline-block;
-	vertical-align: middle;
-}
-#main .topImg img.topImg01 {
-	width: 500px;
-}
-#main .topImg img.topImg02 {
-	width: 430px;
-	margin-left: -90px;
-}
-#main section .topSec01_img img {
-	width: 100%;
-}
-#main section .topSec01_conts,
-#main section .topSec02_conts {
-	padding: 1em;
-}
-/*
-#main section .topSec01_conts div {
-	display: inline-block;
-	vertical-align: top;
-	width: 49%;
-	width: 100%;
-}
-*/
-#main section .topSec02_img img {
-	width: 100%;
-}
-#main section .topSec02_conts p {
-	margin-bottom: 1em;
-}
-#main section .topSec02_conts p.message {
-	padding-left: 1em;
-}
-#main section a {
-	color: #00A39B;
-}
-#main section .prdSec01_img img {
-	width: 100%;
-}
-#main section .prdSec01_conts .text {
-	margin-bottom: 15px;
-}
-#main section .prdSec01_conts .text img {
-	width: 30%;
-	margin-bottom: 5px;
-}
-#main section .prdSec01_conts .prdSec01_sat img.sub {
-	width: 22%;
-	margin-bottom: 15px;
-}
-#main section .prdSec01_conts .prdSec01_sat div {
-	/*display: inline-block;*/
-	/*vertical-align: top;*/
-	/*width: 45%;*/
-	/*padding: 1em;*/
-}
-/*
-#main section .prdSec01_conts .prdSec01_VR img.sub {
-	width: 46%;
-}
-#main section .prdSec01_conts .prdSec01_VR div {
-	display: inline-block;
-	vertical-align: top;
-	width: 45%;
-}
-*/
-#main section .prdSec01_conts .prdSec01_VR div.img img {
-	width: 99%;
-}
-#main section .prdSec01_conts .prdSec01_statistics img.sub {
-	width: 35%;
-}
-/*
-#main section .prdSec01_conts .prdSec01_statistics div {
-	display: inline-block;
-	vertical-align: top;
-	width: 45%;
-	padding: 1em;
-}
-*/
-/*
-#main section .prdSec01_conts .prdSec01_statistics div.img img {
-	width: 90%;
-}
-*/
-#main section .solSec01_conts img.main {
-	width: 100%;
-	margin-bottom: 20px;
-}
-#main section .solSec01_conts .solSec01_sub01 img.sub {
-	width: 68%;
-}
-#main section .solSec01_conts .solSec01_sub01 div {
-	display: inline-block;
-	vertical-align: top;
-	width: 45%;
-}
-#main section .solSec01_conts .solSec01_sub02 img.sub {
-	width: 70%;
-}
-#main section .solSec01_conts .solSec01_sub03 img.sub {
-	width: 16%;
-}
-#main section .solSec01_conts .solSec01_sub03 div {
-	display: inline-block;
-	vertical-align: top;
-	width: 45%;
-}
-#main .topMessage {
-	text-align: center;
-	margin: 4em 0;
-}
-#main .topMessage img {
-	width: 85%;
-}
-#main section .compSec01_img img,
-#main section .compSec02_img img {
-	width: 100%;
-}
-#main section .compSec01_conts,
-#main section .compSec02_conts {
-	padding: 2em;
-}
-#main section table {
-	width: 100%;
-	border-top: 0.75px solid #D3D3D3;
-	border-collapse: collapse;
-}
-#main section table tr {
-	border-bottom: 0.75px solid #D3D3D3;
-}
-#main section table tr th {
-	width: 25%;
-	text-align: left;
-	font-weight: normal;
-}
-#main section table tr th,
-#main section table tr td {
-	padding: 1em;
-}
-#main section a {
-	color: #00A39B;
-}
-
 /* footer ================================== */
 #footer {
 	padding-top: 1em;

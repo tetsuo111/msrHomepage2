@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+/*******************
+*title
+*******************/
+
+.title{
+	background-image: url("img/titleLogo.png");
+	background-repeat: no-repeat;
+	background-size: 4%;
+	background-position: left center;
+	width: 100%;
+	padding: 20px 0 20px 70px;
+}
+.title h1{
+	font-size: 30px;
+	color: #545454;
+	font-weight: 600;
+}
+
+/*******************
+*sub-title
+*******************/
+
+.subTitle{
+	padding: 0 0 20px 0;
+	width: 100%;
+	margin: 0 0 1em 0;
+}
+.subTitle h2{
+	font-size: 25px;
+	color: #545454;
+	font-weight: 600;
+	padding: 0 0 10px 0;
+}
+.subTitle p{
+	font-size: 20px;
+	color: #ff7200;
+	font-weight: 600;
+}
+.subTitle .subTitleLogo{
+	background-image: url("img/mSwitch.png");
+	background-repeat: no-repeat;
+	background-size: 18%;
+	background-position: left center;
+}
+.subTitle .subTitleLogo p{
+	padding: 0 0 0 200px;
+}
+
+/*******************
+*separator
+*******************/
+
+.separator {
+	height: 3px;
+	width: 340px;
+	margin: 15px 0px;
+	background: #eeeeee;
+	position: relative;
+}
+.separator:after {
+	position: absolute;
+	left:0;
+	bottom:0;
+	height: 3px;
+	width: 100px;
+	background: #ff7200;
+	content:"";
+}
+
+/*******************
+*image
+*******************/
+
+.img{
+	text-align: center;
+}
+
+/*******************
+*list
+*******************/
+
+.list{}
+.list.list00{
+	list-style: none;
+}
+.list.list01{
+	padding: 0 0 0 40px;
+}
+.list.list01 li{
+	padding: 0 0 20px 0;
+}
+.list.list02{
+	list-style: none;
+	padding: 0 0 0 100px;
+}
+
+/*******************
+*table
+*******************/
+
+.table{
+	width: 100%;
+	border-top: 0.75px solid #D3D3D3;
+	border-collapse: collapse;
+}
+table.table tr{
+	border-bottom: 0.75px solid #D3D3D3;
+}
+table.table tr th{
+	width: 25%;
+	text-align: left;
+	font-weight: normal;
+}
+table.table tr th,
+table.table tr td{
+	padding: 1em;
+}
+table.table.table01 tr th{
+	width: 20%;
+}
+table.table.table01 tr td{
+	padding: 0.5em 1em 1em 1em;
+}
+.table.table01 tbody .tdDesign01{
+	width: 15%;
+	vertical-align: top;
+}
+
+/*******************
+*text blocks
+*******************/
+
+.text{
+	margin: 0 0 15px 0;
+}
+.text p{
+	line-height: 30px;
+}
+.text p:not(:last-child){
+	padding: 0 0 10px 0;
+}
+
+/*******************
+*margin,padding adjust
+*******************/
+
+.mb{
+	margin-bottom: 5em;
+}
+
+/*******************
+*others
+*******************/
+.fl7{
+	position: relative;
+	float: left;
+	width: 70%;
+	padding: 0 15px 0 0;
+}
+.fl5{
+	position: relative;
+	float: left;
+	width: 25%;
+	padding: 0 0 0 15px;
+}
+.fr5{
+	position: relative;
+	float: right;
+	width: 25%;
+	padding: 0 0 0 15px;
+}
+.clearfix:after{
+	content: "";
+	display: block;
+	min-height: 1px;
+	clear: both;
+}
