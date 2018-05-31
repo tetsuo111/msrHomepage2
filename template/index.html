@@ -1,1508 +1,457 @@
 <!doctype html>
-<!--[if lt IE 7]>	  <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
-<!--[if IE 7]>		 <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
-<!--[if IE 8]>		 <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
-	<head>
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		<title>株式会社マインドセットリサーチ</title>
-		<meta name="description" content="今や、職場のメンタルヘルス不調者への対策は急務であり、企業にとっての経営課題の一つとなっています。平成27年12月より、厚生労働省主導によるストレスチェック制度もいよいよ開始となりました。しかし・・・、ストレスチェックテストの点数だけでは根本的な解決の糸口が見えてこないのが現実です・・・。当社では、個人のメンタルヘルスの状態を測定し、心の状態や個人固有の心理特性など、時系列に可視化できるメンタルヘルス測定システムを開発し提供します。当システムには、特許を取得した、メンタルヘルスの状態を測定・可視化する解析エンジン「COCOLOMI」を搭載し、メンタルヘルスを不調に至らしめている原因や解決の糸口を分析できる、これまでにない新しい独自のシステムです。さらに、分析結果から得られる個人の心理特性に応じた研修・トレーニング、コンサルティング、カウンセリングなど、より教育効果、改善効果を高める専門ソリューションサービスを提供し、企業のメンタルヘルス対策における課題解決、人材・組織の生産性改善・活性化、ストレスチェック制度運用支援などを行います。">
-		<meta name="keywords" content="マインドセットリサーチ,メンタルヘルス,ココロミ,COCOLOMI,mindset-research,メンタル不調者,カウンセラー,産業医,筑波大学発ベンチャー">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Mindset Research, Inc.</title>
+		<meta name="keywords" content="Mindset research, mental, mind, brain, health,  data, online, social, cloud, mobile, disorder, illness, anxiety, depression, counselling, therapy, SAT, AI, VR, counseller, therapist, Psychology, Psychologist, self, perfomance, productivity, human, management, team, organization, stress, resource, training, self">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-		<link rel="stylesheet" href="assets/css/iconfont.css">
-		<link rel="stylesheet" href="assets/fonts/stylesheet.css">
-		<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-		<link rel="stylesheet" href="assets/css/jquery.fancybox.css">
-		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" href="assets/css/magnific-popup.css">
-		
-		<!--<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--<link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
 
-		<!--For Plugins external css-->
-		<link rel="stylesheet" href="assets/css/plugins.css" />
-		<link rel="stylesheet" href="assets/css/old_wv_style.css">
-		<!--Theme custom css -->
-		<link rel="stylesheet" href="assets/css/style.css">
 
-		<!--Theme Responsive css-->
-		<link rel="stylesheet" href="assets/css/responsive.css" />
-		<script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-	</head>
-	<body data-spy="scroll" data-target=".navbar-collapse">
-		<!--[if lt IE 8]>
-			<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-		<![endif]-->
-		<!--<div class='preloader'><div class='loaded'>&nbsp;</div></div>-->
-		<div class="culmn">
-			<header id="main_menu" class="header navbar-fixed-top">
-				<div class="main_menu_bg">
-					<div class="container">
-						<div class="row">
-							<div class="nave_menu">
-								<nav class="navbar navbar-default">
-									<div class="container-fluid">
-										<!-- Brand and toggle get grouped for better mobile display -->
-										<div class="navbar-header">
-											<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-												<span class="sr-only">Toggle navigation</span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
-												<span class="icon-bar"></span>
-											</button>
-											<a class="navbar-brand" href="#home">
-												<img src="assets/images/logo.png" width="300" height=""/>
-											</a>
-										</div>
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="assets/css/plugins.css" />
+        <link rel="stylesheet" href="assets/css/roboto-webfont.css" />
 
-										<!-- Collect the nav links, forms, and other content for toggling -->
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+		<link rel="stylesheet" href="assets/css/style2018.css">
 
-										<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
 
-											<ul class="nav navbar-nav navbar-right">
-												<li><a href="#home">ホーム</a></li>
-												<li><a href="#service">サービス</a></li>
-												<li><a href="#team">プロダクト</a></li>
-												<li><a href="#portfolio">研究開発</a></li>
-												<li><a href="#testimonial">会社情報</a></li>
-												<li><a href="#contact">お問合せ・アクセス</a></li>
-<!--
-												<li>
-													<a href="#"  data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-														<span class="glyphicon glyphicon-search"></span></a>
-													<ul class="dropdown-menu">
-														<li>
-															<form class="navbar-form" role="search">
-																<div class="form-group">
-																	<input type="text" class="form-control" placeholder="Search">
-																</div>
-															</form>
-														</li>
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+        <!-- Sections -->
+        <!--
+        <section id="social" class="social">
+            <div class="container">
+                <div class="row">
+                    <div class="social-wrapper">
+                        <div class="col-md-6">
+                            <div class="social-icon">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="social-contact">
+                                <a href="#"><i class="fa fa-phone"></i>+011 54925849</a>
+                                <a href="#"><i class="fa fa-envelope"></i>contact@softech.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+		-->
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#"><img src="assets/images/logo01.png" alt="Logo" width="200"/></a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#home">ホーム</a></li>
+						<li><a href="#service">研修/トレーニングツール</a></li>
+						<li><a href="#business">研究開発</a></li>
+						<li><a href="#features">企業情報</a></li>
+						<li><a href="#contact">お問合わせ
+							</a></li>
+                        <!--
+                        <li class="login"><a href="#">Sign In</a></li>
+                        -->
+                    </ul>
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!--Home page style-->
+        <header id="home" class="home">
+            <div class="overlay-fluid-block">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="home-wrapper">
+                            <div class="col-md-10 col-md-offset-1">
+                                <div class="home-content">
+									<h1>「感じ方」が変わる<br/>「未来」が変わる！　</h1>
+									<p>脳科学カウンセリング技術を活用、セルフメンタルトレーニングシステム
+									<br/>新時代ビジネスパーソン必携スキル、”セルフ”・ストレスマネジメントスキルを身につける
+									</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+		<section id="features" class="features sections lightbg">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12">
+						<p>　　働き方改革、健康経営、ストレスチェック制度…今や、組織メンバーの健康やストレスの問題は生産性と関連付けられ、企業の発展に欠かせない経営要素として取り上げられるようになりました。ストレスは万病の元と言われます。ストレス度が高いと、感じ方や考え方は、否定的、批判的、消極的になり、メンバーの挑戦意欲や生産性を低下させます。</p>
+						<p>　しかし、ストレスは、個人の性格傾向や、物事や人間関係のへの「感じ方」など個人の内面が大きく関わる問題のため、その解決に向けては、これまで、医師やカウンセラー、コーチャー、メンター、アドバイザーなど、様々な専門家や人的支援が不可欠でした。しかし、基本的にマンツーマンによる人的支援では、カバーできる範囲は自ずと限られています。果たして、組織的な課題解決に向けて、どのように対処をすれば良いか？
+						</p>
+						<p>　当社は、脳科学カウンセリング・セラピー技術とITとを融合させることで、組織メンバーの自助力を高めるソリューションを提供します。当社が、筑波大学と共同で研究開発した、セルフメンタルトレーニングシステムMOODSWITCHは、従来、専門家の支援がないと難しかった、ストレス問題原因への気づき、ストレス軽減、ストレス耐性向上、性格・行動変容などのトレーニングを、“セルフ”で実施可能にするものです。MOODSWITCHを使った研修トレーニングプログラムは、組織メンバーのストレスに対する自助力を高め、人材や組織の活性化、生産性向上を目的としています。
+
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="features" class="features sections">
+			<div class="main_service2 margin-bottom-80">
+				<div class="head_title text-center">
+					<h2>研修/トレーニングツール</h2>
+					<p>当社では、脳科学カウンセリング・セラピー技術をベースに、“セルフ”で、「ストレスケア」、「ストレス耐性向上」、「コミュニケーション」、「性格・行動変容」を行うことができるメンタルトレーニングシステム“MOODSWITCH”を、筑波大学と共同で研究開発し提供しています。MOODSWITCHは、クラウドサービスとして、ネットワークを通じて提供されます。使用の目的や環境に応じて、利用者は、WEB、VR、チャットボットの3つの種類のアプリが提供されます。</p>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row margin-bottom-80">
+					<div class="main_features_content2">
+
+						<div class="col-sm-5">
+							<div class="single_features_left text-center">
+								<img src="assets/images/flaticon01.png" alt="" />
+							</div>
+						</div>
+
+						<div class="col-sm-7">
+							<div class="single_features_right ">
+								<div class="subTitle">
+									<h3 class="subTitleLogo">Trainer</h3>
+									<div class="separator"></div>
+								</div>
+								<p>　SATメソッドは、筑波大学大学院人間総合科学研究科宗像恒次研究室で開発され、日本をはじめ、中国、ドイツ、オーストリアなど海外でも普及してきているカウンセリング・セラピー技法です。
+								精神分析を開発したフロイトが自由連想法を用いるのに対し、SATメソッドは、感情の明確化、自己イメージ連想法、心傷風景連想法等、問いかけを構造化した連想法を用いることが特徴です。
+								SATメソッドでは、相談者が問題（秘密）を語る必要がありません。ストレス場面を想い浮かべることで生じる身体の違和感（重い、ドキドキするなど）を、画像などイメージを使って良好感に変え、自己解決を図ります。
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="row margin-bottom-80">
+					<div class="main_features_content2">
+						<div class="col-sm-7">
+							<div class="single_features_right ">
+								<div class="subTitle">
+									<h3 class="subTitleLogo">CareVR</h3>
+									<div class="separator"></div>
+								</div>
+								<p>CareVRは、Virtual Reality技術を使ってセルフセラピーを実施するためのアプリです。VRの没入感映像を使って、イメージ技法をの効果を最大限に高め、システムの中でも、最も高いストレス軽減効果を発揮するアプリです。 安価なスマートフォン挿入型のVRヘッドセットを着用し、実施することができます。</p>
+							</div>
+						</div>
+						<div class="col-sm-5">
+							<div class="single_features_left text-center">
+								<img src="assets/images/flaticon02.png" alt="" />
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="row margin-bottom-80">
+					<div class="main_features_content2">
+
+						<div class="col-sm-5">
+							<div class="single_features_left text-center">
+								<img src="assets/images/flaticon03.png" alt="" />
+							</div>
+						</div>
+
+						<div class="col-sm-7">
+							<div class="single_features_right ">
+								<div class="subTitle">
+									<h3 class="subTitleLogo">CareBot</h3>
+									<div class="separator"></div>
+								</div>
+
+								<p>CareBOTは、LINEアプリ上で利用できるAIチャットボットが、セルフセラピーを誘導するアプリです。利用者が積極的、意識的に、アプリを操作してくれなくても、LINE上の仮想セラピストが、セルフセラピー実施の時を教えてくれ、 自動的にセラピー実施を誘導してくれます。利用の動機づけが十分でない利用者に対して、あるいは、一斉に大人数が使用するような場合に、有効なアプリです。
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="row margin-bottom-80">
+					<div class="main_features_content2">
+						<div class="col-sm-7">
+							<div class="single_features_right ">
+								<div class="subTitle">
+									<h3>組織の課題分析</h3>
+									<div class="separator"></div>
+								</div>
+								<p>
+									MOODSWITCHの使用データは統計処理し、組織の課題分析に利用することができます。組織メンバーの心理、ストレス特性から、組織内に起こりうる課題を分析し、組織の生産性向上、チームマネジメントの改善、メンタルヘルス環境の改善などに向けたソリューションを提案いたします。
+								</p>
+							</div>
+						</div>
+						<div class="col-sm-5">
+							<div class="single_features_left text-center">
+								<img src="assets/images/flaticon04.png" alt="" />
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="row margin-bottom-80">
+					<div class="main_features_content2">
+
+						<div class="col-sm-5">
+							<div class="single_features_left text-center">
+								<img src="assets/images/flaticon05.png" alt="" />
+							</div>
+						</div>
+
+						<div class="col-sm-7">
+							<div class="single_features_right ">
+								<div class="subTitle">
+									<h3>脳科学カウンセリング・セラピー技術SATメソッドについて</h3>
+									<div class="separator"></div>
+								</div>
+
+								<p>SATメソッドは、筑波大学大学院人間総合科学研究科宗像恒次研究室で開発され、日本をはじめ、中国、ドイツ、オーストリアなど海外でも普及してきているカウンセリング・セラピー技法です
+									様々なストレスによるメンタルの問題や精神障害から身体の病気まで有効範囲が広い技術で、臨床的にも学術的にも安全性、効果が実証されています。学術機関であるNPO法人ヘルスカウンセリング学会公認「ヘルスカウンセラー」資格は，厚生労働省の「メンタルヘルス対策・過重労働対策・自殺予防対策に関連する資格」の一つとして認定を受け，「こころの耳（働く人のメンタルヘルスポータルサイト）」に掲載されています。
+									SAT法は，従来のカウンセリング技法が心理的な問題に焦点を当てるのに対し，ストレスによる生じる身体違和感や不快感（胸がドキドキする、胃がキリキリする、手足が冷えるなど）を解消することで、ストレス問題を解決していく技法です。悩みや問題を言葉にして問題解決をするのではなく、心地よい景色や笑顔のイメージ画像からの視覚刺激を利用することで、連想やひらめき，直感をよく機能させることで，無自覚な本当の感情や本質的な欲求を短時間で把握し、解決します。
+									セラピーによりストレス問題の軽減や解決を図るだけではなく、繰り返しのトレーニングで、物事や人間関係の感じ方の切替を行うスキルを身に着け、ポジティブな性格に転換していくことで、ストレスからの柔軟な回復力（レジリエンス）を身に着け、ストレス耐性を高めることができます。
+								</p>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="contact sections lightbg">
+			<div class="container">
+				<div class="row padding-bottom-40 margin-bottom-80">
+					<div class="main_contact whitebackground">
+						<div class="head_title text-center">
+							<h2>論文</h2>
+						</div>
+						<div class="portfolio-wrapper2 text-center">
+							<div class="col-sm-12">
+								<div class="community-edition">
+									<ul class="list">
+										<li>
+											<h5>Virtual Reality Course Based on the SAT Counseling Method for Self-guided Mental Healthcare</h5>
+											<p>　Ito T,Kamita T,Matsumoto A,Inoue T and Munakata T, The Sixth IEEE International Conference on Healthcare Informatics, New York City(2018/06)</p>
+										</li>
+										<li>
+											<h5>カウンセリング技法SAT法に基づくスマートフォン用デジタルコンテンツ</h5>
+											<p>　伊藤達哉,紙田剛,松本敦子,徐炯達,楊珍,宗像恒次,井上智雄,研究報告デジタルコンテンツクリエーション（DCC）, 2018-DCC-18, vol.37, 1-8, 2018-01-19, 情報処理学会.</p>
+										</li>
+										<li>
+											<h5>VR（バーチャルリアリティ）を用いたSATセルフメンタルケアシステムの開発</h5>
+											<p>　松本敦子,紙田剛,井上智雄,橋本佐由理：Journal of Health Counseling, suppl, pp.36-37, 2017, ヘルスカウンセリング学会</p>
+										</li>
+										<li>
+											<h5>SAT法に基づくセルフメンタルヘルスケアのVRによる実現</h5>
+											<p>　中西明日輝, 野口康人,中島寿哉, 楊珍, 松本敦子, 紙田剛, 宗像恒次, 井上智雄：, 研究報告デジタルコンテンツクリエーション（DCC）, 2017-DCC-15, vol.35, 1-8, 2017-01-13, 情報処理学会.</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+				
+					<div class="main_contact whitebackground">
+						<div class="head_title text-center">
+							<h2>研究開発</h2>
+							<p>当社では、株式会社SDSと筑波大学と協力して、システムやサービスの研究開発を行い、エビデンスに基づいたシステム、及び、サービスの提供を行っていきます。</p>
+						</div>
+						<div class="portfolio-wrapper2 text-center">
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="community-edition">
+									<figure>
+										<a href="http://www.kksds.com/" target="_blank"><img src="../img/devSec01_sds_banner.png" class="banner" style="margin-bottom: 1em;" alt="筑波大学発ベンチャー 株式会社SDS" width="200"/></a>
+									</figure>
+									<h4>筑波大学発ベンチャー<br><a href="http://www.kksds.com/" target="_blank">株式会社SDS</a><br>代表取締役社長　宗像恒次 博士</h4>
+									<p>筑波大学大学院教授(現名誉教授) 宗像恒次 博士によって開発され、世界でからも評価を受けるカウンセリング技法、SATメソッドの普及目的として設立。SATカウンセラーの育成、SAT研修プログラムの開発・提供、日本や中国、ドイツなどでのセミナー開催、SAT療法センターでの心理治療など。</p>
+									<p>宗像代表が学会長を務めるNPO法人ヘルスカウンセリング学会の公認ヘルスカウンセラーは、厚労省「こころの耳」事業資格として認定を受け、厚労省ホームページに掲載されています。
+									</p>
+									
+									<p><a href="http://www.healthcounseling.org/" target="_blank">NPO法人ヘルスカウンセリング学会</a>の公認ヘルスカウンセラーは、厚労省「こころの耳」事業資格として認定を受け、<a href="https://kokoro.mhlw.go.jp/qualification/" target="_blank">厚労省ホームページ</a>に掲載されています。</p>
+									<figure>
+										<a href="https://kokoro.mhlw.go.jp/qualification/" target="_blank"><img src="../img/kokoro_no_mimi.png" alt="厚生労働省 こころの耳" /></a>
+									</figure>
+								</div>
+							</div>
+
+							<div class="col-md-6 col-sm-6 col-xs-12">
+								<div class="community-edition">
+									<figure>
+										<a href="http://inolab.slis.tsukuba.ac.jp/" target="_blank"><img src="../img/devSec01_interaction_banner.png" class="banner" alt="筑波大学 インタラクション研究室" width="200" /></a>
+									</figure>
+									<h4>筑波大学<br/>情報学群　情報メディア創成学類<br><a href="http://inolab.slis.tsukuba.ac.jp/" target="_blank">インタラクション研究室</a><br>井上智雄教授</h4>
+									<p>ユビキタスコンピューティングの時代。そこでは、コンピュータと人とのインタラクション（対話）も新しい形態へと設計し直すことが必要です。</p>
+									<p>井上研究室では、人と人とのコミュニケーションや協同の理解に基づいて、インタラクションを拡張する研究を進め、次世代社会情報環境を創り出しています。</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact" class="contact sections ">
+			<div class="container">
+				<div class="row">
+					<div class="main_contact whitebackground">
+						<div class="head_title text-center">
+							<h2>会社概要</h2>
+							<!--<div class="separator"></div>-->
+						</div>
+						<div class="contact_content">
+
+							<div class="col-md-12">
+								<div class="single_right_contact">
+									<table class="table">
+										<tbody>
+											<tr>
+												<th>社名</th>
+												<td>株式会社マインドセットリサーチ　（略称：MSR）</td>
+											</tr>
+											<tr>
+												<th>設立</th>
+												<td>2015年11月11日</td>
+											</tr>
+											<tr>
+												<th>所在地</th>
+												<td>〒170-0013 東京都豊島区東池袋2-39-2大住ビル5F</td>
+											</tr>
+											<tr>
+												<th>代表電話番号</th>
+												<td>03-5950-5683</td>
+											</tr>
+											<tr>
+												<th>役員</th>
+												<td>代表取締役　紙田　剛<br>取　締　役　松本　敦子</td>
+											</tr>
+											<tr>
+												<th>顧問</th>
+												<td>筑波大学名誉教授　/　株式会社ＳＤＳ　代表取締役社長<br>宗像　恒次 博士</td>
+											</tr>
+											<tr>
+												<th>大学発ベンチャー登録</th>
+												<td>筑波大学発ベンチャー<br>（<a href="http://www.sanrenhonbu.tsukuba.ac.jp/spin_offs/year/#h27" target="_blank">筑波大学産学連携本部ホームページ</a>）</td>
+											</tr>
+											<tr>
+												<th>主な事業内容</th>
+												<td>
+													<ul style="margin-left: 1em; list-style-type: square;">
+														<li>心理学・脳科学をベースとしたメンタルヘルス対策、人材育成、組織マネジメントのコンサルティング・アドバイサリー</li>
+														<li>メンタルヘルス対策の研修・トレーニング</li>
+														<li>メンタルヘルスに関わる情報システム企画・開発・販売</li>
+														<li>個人/組織の心理アセスメント、分析調査</li>
+														<li>ＥＡＰ(従業員支援プログラム)サービス</li>
+														<li>カウンセリングサービス</li>
+														<li>メンタルヘルス専門家養成</li>
+														<li>人材コンサルティング</li>
 													</ul>
-												</li>
--->
-											</ul>
-
-										</div>
-
-									</div>
-								</nav>
-							</div>
-						</div>
-
-					</div>
-				</div>
-			</header> <!--End of header -->
-
-
-			<section id="home" class="home">
-				<div class="overlay">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12 ">
-								<div class="main_home_slider text-center">
-									<div class="single_home_slider">
-										<div class="main_home wow fadeInUp" data-wow-duration="700ms">
-											<h1>「感じ方」が変わる<br/>「未来」が変わる</h1>
-											<p>We Make Awesome Theme For Your Business</p>
-											<!--
-											<div class="home_btn">
-												<a href="" class="btn btn-primary">LEARN MORE</a>
-											</div>
-											-->
-										</div>
-									</div>
-									<div class="single_home_slider">
-										<div class="main_home wow fadeInUp" data-wow-duration="700ms">
-											<h1>WELCOME TO OUR LOGIC</h1>
-											<p>We Make Awesome Theme For Your Business</p>
-											<!--
-												<div class="home_btn">
-												<a href="" class="btn btn-primary">LEARN MORE</a>
-												</div>
-												-->
-
-										</div>
-									</div>
-									<div class="single_home_slider">
-										<div class="main_home wow fadeInUp" data-wow-duration="700ms">
-											<h1>WELCOME TO OUR LOGIC</h1>
-											<p>We Make Awesome Theme For Your Business</p>
-											<!--
-											<div class="home_btn">
-												<a href="" class="btn btn-primary">LEARN MORE</a>
-											</div>
-											-->
-										</div>
-									</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
 								</div>
 							</div>
+
 						</div>
 					</div>
 				</div>
-			</section>
+			</div>
+		</section><!-- End of Contact Section -->
+		<section id="contact" class="contact sections  lightbg">
+            <div class="container">
+                <div class="row">
+                    <div class="main_contact whitebackground">
+                        <div class="head_title text-center ">
+                            <h2>お問合わせ</h2>
+							<p>システムやサービスの詳細については、下記にお問合せ下さい。</p>
+                        </div>
+                        <div class="contact_content ">
+                            <div class="col-md-12">
+                                <div class="single_right_contact">
+                                    <!--<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>-->
 
-			<section id="service" class="service">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="main_service_area">
-								<div class="main_service_content">
-									<div class="service_tabe">
-										<!-- Nav tabs -->
-										<ul class="service_tabe_menu nav nav-tabs" role="tablist">
-											<li role="presentation" class="active"><a href="#webdesign" aria-controls="webdesign" role="tab" data-toggle="tab"><i class="fa fa-map-marker"></i> <br />働き方改革<br/>生産性向上トレーニング</a></li>
-											<li role="presentation"><a href="#appdesign" aria-controls="appdesign" role="tab" data-toggle="tab"><i class="fa fa-map-marker"></i> <br />マネジメント<br/>ヒューマンスキルトレーニング</a></li>
-											<li role="presentation"><a href="#graphicdesign" aria-controls="graphicdesign" role="tab" data-toggle="tab"><i class="fa fa-map-marker"></i> <br />メンタルヘルス対策<br/>セルフケア促進トレーニング</a></li>
-											<!--
-											<li role="presentation"><a href="#gamedesign" aria-controls="gamedesign" role="tab" data-toggle="tab"><i class="fa fa-map-marker"></i> <br />セルフメンタル<br/>トレーニングシステム</a></li>-->
-										</ul>
-
-										<!-- Tab panes -->
-										<div class="tab-content">
-											<div role="tabpanel" class="tab-pane active" id="webdesign">
-												<div class="single_service_tab">
-													<div class="row">
-														<div class="col-sm-6">
-															<div class="single_tab_content">
-																<div class="head_title">
-																	<h3>働き方改革  生産性向上トレーニング</h3>
-																	<div class="separator"></div>
-																</div>
-																<p>It is a long established fact that a reader will be distracted by the readable content of a page 
-																	when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
-																	distribution of letters, as opposed to using 'Content here, content here', making it 
-																	look like readable English. Many desktop publishing packages and web page editors now use 
-																	Lorem Ipsum as their default model text, and a search for 'lorem ipsum' </p>
-
-																<a href="" class="btn btn-primary">LEARN MORE</a>
-															</div>
-														</div>
-
-														<div class="col-sm-6">
-															<div class="single_tab_img">
-																<img src="assets/images/stab1.png" alt="" />
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div role="tabpanel" class="tab-pane" id="appdesign">
-												<div class="single_service_tab">
-													<div class="row">
-														<div class="col-sm-6">
-															<div class="single_tab_content">
-																<div class="head_title">
-																	<h3>マネジメント  ヒューマンスキルトレーニング</h3>
-																	<div class="separator"></div>
-																</div>
-																<p>It is a long established fact that a reader will be distracted by the readable content of a page 
-																	when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
-																	distribution of letters, as opposed to using 'Content here, content here', making it 
-																	look like readable English. Many desktop publishing packages and web page editors now use 
-																	Lorem Ipsum as their default model text, and a search for 'lorem ipsum' </p>
-
-																<a href="" class="btn btn-primary">LEARN MORE</a>
-															</div>
-														</div>
-
-														<div class="col-sm-6">
-															<div class="single_tab_img">
-																<img src="assets/images/featureslid1.jpg" alt="" />
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div role="tabpanel" class="tab-pane" id="graphicdesign">
-												<div class="single_service_tab">
-													<div class="row">
-														<div class="col-sm-6">
-															<div class="single_tab_content">
-																<div class="head_title">
-																	<h3>メンタルヘルス対策  セルフケア促進トレーニング</h3>
-																	<div class="separator"></div>
-																</div>
-																<p>It is a long established fact that a reader will be distracted by the readable content of a page 
-																	when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
-																	distribution of letters, as opposed to using 'Content here, content here', making it 
-																	look like readable English. Many desktop publishing packages and web page editors now use 
-																	Lorem Ipsum as their default model text, and a search for 'lorem ipsum' </p>
-
-																<a href="" class="btn btn-primary">LEARN MORE</a>
-															</div>
-														</div>
-
-														<div class="col-sm-6">
-															<div class="single_tab_img">
-																<img src="assets/images/stab1.png" alt="" />
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div role="tabpanel" class="tab-pane" id="gamedesign">
-												<div class="single_service_tab">
-													<div class="row">
-														<div class="col-sm-6">
-															<div class="single_tab_content">
-																<div class="head_title">
-																	<h3>セルフメンタルトレーニングシステム</h3>
-																	<div class="separator"></div>
-																</div>
-																<p>It is a long established fact that a reader will be distracted by the readable content of a page 
-																	when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal 
-																	distribution of letters, as opposed to using 'Content here, content here', making it 
-																	look like readable English. Many desktop publishing packages and web page editors now use 
-																	Lorem Ipsum as their default model text, and a search for 'lorem ipsum' </p>
-
-																<a href="" class="btn btn-primary">LEARN MORE</a>
-															</div>
-														</div>
-
-														<div class="col-sm-6">
-															<div class="single_tab_img">
-																<img src="assets/images/featureslid1.jpg" alt="" />
-															</div>
-														</div>
-														<!--<div id="pentagon"></div>-->
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section id="features" class="features">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="main_features_area sections">
-								<div class="head_title">
-									<h3>SATメソッド  脳科学カウンセリング技術</h3>
-									<div class="separator"></div>
-								</div>
-								<div class="row">
-									<div class="main_features_content">
-
-										<div class="col-sm-6">
-
-											<div class="single_features_slide">
-												<div class="single_ft_s_item">
-													<img src="assets/images/featureslid1.jpg" alt="" />
-												</div>
-												<div class="single_ft_s_item">
-													<img src="assets/images/featureslid1.jpg" alt="" />
-												</div>
-												<div class="single_ft_s_item">
-													<img src="assets/images/featureslid1.jpg" alt="" />
-												</div>
-											</div>
-										</div>
-										<div class="col-sm-6">
-											<div class="single_features_text">
-												<h4>HAND WITH A WATCH</h4>
-												<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-													Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-													when an unknown printer took a galley of type and scrambled </p>
-
-												<ul>
-													<li><span>Client:</span> Dadit Lorm</li>
-													<li><span>Deivered:</span> Sunday, 15 August, 2015</li>
-													<li><span>Tags:</span> Hand, Watch, Black, Tree</li>
-												</ul>
-
-												<a href="" class="btn">LAUNCH NOW</a>
-											</div>
-										</div>
-									</div>
-								</div> 
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
+                                    <div class="contact_address text-center">
+										<span>〒170-0013　東京都豊島区東池袋2-39-2　大住ビル5F</span>
+										<span>電話：03-5950-5683（営業時間：平日10:00～17:00）</span> 
+										<span>メール：info@mindset-research.co.jp</span>
+                                    </div>
 <!--
-			<section id="video" class="video text-center wow fadeIn"  data-wow-duration="2s" data-wow-dealy="1.5s">
-				<div class="video_overlay">
-					<div class="container">
-						<div class="row">
-							<div class="main_video">
-								<div class="col-sm-12">
-									<div class="icon">
-										<a href="https://www.youtube.com/embed/_l6CQRHIGyg" class="youtube-media"><img src="assets/images/play.png" alt="play-icon" /></a>
-										<h3>WATCH OUR INTRO</h3>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
+                                    <div class="contact_socail_bookmark">
+                                        <a href=""><i class="fa fa-facebook"></i></a>
+                                        <a href=""><i class="fa fa-twitter"></i></a>
+                                        <a href=""><i class="fa fa-google"></i></a>
+                                    </div>
 -->
-
-			<section id="about" class="about">
-				<div class="container">
-					<div class="row">
-
-						<div class="main_about_area sections">
-							<div class="col-sm-12">
-
-								<div class="main_about_content">
-									<div class="row">
-
-										<div class="col-sm-7 wow fadeInRight" data-wow-duration="700ms">
-											<div class="single_about_right_content">
-												<div class="head_title">
-													<h3>ABOUT LOGIC</h3>
-													<div class="separator"></div>
-												</div>
-
-												<div class="single_about">
-													<div class="single_ab_icon">
-														<div class="ab_border_right"></div>
-														<i class="fa fa-coffee"></i>
-													</div>
-													<div class="single_ab_text">
-														<h3>RESPONSIVE DESIGN</h3>
-														<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-															Lorem Ipsum has been the industry's standard dummy text</p>
-													</div>
-												</div>
-												<div class="single_about">
-													<div class="single_ab_icon">
-
-														<i class="fa fa-paint-brush"></i>
-													</div>
-													<div class="single_ab_text">
-														<h3>EASY TO CUSTOMIZE</h3>
-														<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-															Lorem Ipsum has been the industry's standard dummy text</p>
-													</div>
-												</div>
-												<div class="single_about">
-													<div class="single_ab_icon">
-														<i class="fa fa-headphones"></i>
-													</div>
-													<div class="single_ab_text">
-														<h3>LIFE TIME SUPPORT</h3>
-														<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-															Lorem Ipsum has been the industry's standard dummy text</p>
-													</div>
-												</div>
-
-											</div>
-										</div>
-
-										<div class="col-sm-5">
-											<div class="single_about_left_img margin-top-40 text-center wow fadeInLeft" data-wow-duration=".6s">
-												<img src="assets/images/abright.png" alt="" />
-											</div>
-										</div>
-									</div>
-									<div class="row">
-										<div class="about_skill_area">
-											<div class="col-sm-6">
-												<div class="about_tabe">
-													<!-- Nav tabs -->
-													<ul class="about_tabe_menu" role="tablist">
-														<li role="presentation" class="active"><a href="#mission" aria-controls="mission" role="tab" data-toggle="tab">OUR MISSION</a></li>
-														<li role="presentation"><a href="#goal" aria-controls="goal" role="tab" data-toggle="tab">OUR GOAL</a></li>
-														<li role="presentation"><a href="#achivements" aria-controls="achivements" role="tab" data-toggle="tab">ACHIVEMENTS</a></li>
-													</ul>
-
-													<!-- Tab panes -->
-													<div class="tab-content">
-														<div role="tabpanel" class="tab-pane active" id="mission">
-															<div class="single_about_tab">
-																<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-																	Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-																	when an unknown printer took a galley type a scrambled it to make a type specimen book. 
-																	It has survived not only five centuries,</p>
-
-																<div class="row">
-																	<div class="col-sm-6">
-																		<ul class="single_ab_mision">
-																			<li><i class="fa fa-check-square"></i> We just want to love our client</li>
-																			<li><i class="fa fa-check-square"></i> We just want to love our client</li>
-																		</ul>
-																	</div>
-																	<div class="col-sm-6">
-																		<ul class="single_ab_mision">
-																			<li><i class="fa fa-check-square"></i> We just want to love our client</li>
-																			<li><i class="fa fa-check-square"></i> We just want to love our client</li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div role="tabpanel" class="tab-pane" id="goal">
-															<div class="single_about_tab">
-																<p>222Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-																	Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-																	when an unknown printer took a galley type a scrambled it to make a type specimen book. 
-																	It has survived not only five centuries,</p>
-
-																<div class="row">
-																	<div class="col-sm-6">
-																		<ul class="single_ab_mision">
-																			<li><i class="fa fa-check-square"></i> We just want to love our client</li>
-																			<li><i class="fa fa-check-square"></i> We just want to love our client</li>
-																		</ul>
-																	</div>
-																	<div class="col-sm-6">
-																		<ul class="single_ab_mision">
-																			<li><i class="fa fa-check-square"></i> We just want to love our client</li>
-																			<li><i class="fa fa-check-square"></i> We just want to love our client</li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div role="tabpanel" class="tab-pane" id="achivements">
-															<div class="single_about_tab">
-																<p>333Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-																	Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-																	when an unknown printer took a galley type a scrambled it to make a type specimen book. 
-																	It has survived not only five centuries,</p>
-
-																<div class="row">
-																	<div class="col-sm-6">
-																		<ul class="single_ab_mision">
-																			<li><i class="fa fa-check-square"></i> We just want to love our client</li>
-																			<li><i class="fa fa-check-square"></i> We just want to love our client</li>
-																		</ul>
-																	</div>
-																	<div class="col-sm-6">
-																		<ul class="single_ab_mision">
-																			<li><i class="fa fa-check-square"></i> We just want to love our client</li>
-																			<li><i class="fa fa-check-square"></i> We just want to love our client</li>
-																		</ul>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-											<div class="col-sm-6">
-												<div class="about_skill">
-													<div class="skillbar" data-percent="79%">
-														<div class="skillbar-title"><h3 class="blue">PHOTOSHOP</h3><span class="sm-text">79%</span></div>
-														<div class="skillbar-bar blue"></div>
-													</div>
-
-													<div class="skillbar" data-percent="90%">
-														<div class="skillbar-title"><h3 class="blue">HTML/CSS</h3><span class="sm-text">90%</span></div>
-														<div class="skillbar-bar blue"></div>
-													</div>
-
-													<div class="skillbar" data-percent="69%">
-														<div class="skillbar-title"><h3 class="blue">JAVASCRIPT</h3><span class="sm-text">69%</span></div>
-														<div class="skillbar-bar blue"></div>
-													</div>
-
-													<div class="skillbar" data-percent="92%">
-														<div class="skillbar-title"><h3 class="blue">WORDPRESS</h3><span class="sm-text">92%</span></div>
-														<div class="skillbar-bar blue"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</section>
-
-
-			<section id="counter" class="counter">
-				<div class="video_overlay">
-					<div class="container">
-						<div class="row">  
-							<div class="col-sm-12">
-								<div class="main_counter_area text-center">
-
-									<div class="row">
-										<div class="single_counter border_right">
-											<div class="col-sm-3 col-xs-12">
-												<div class="single_counter_item">
-													<h2 class="statistic-counter">561</h2>
-													<i class="icon icon-thumbs-up"></i>
-													<p class="margin-top-20">CREATIVE DESIGN</p>
-												</div>
-											</div>
-										</div>
-
-										<div class="single_counter">
-											<div class="col-sm-3 col-xs-12">
-												<div class="single_counter_item">
-													<h2 class="statistic-counter">25</h2>
-													<i class="icon icon-business-3"></i>
-													<p class="margin-top-20">AWARDS WON</p>  
-												</div>
-
-											</div>
-										</div> 
-
-										<div class="single_counter">
-											<div class="col-sm-3 col-xs-12">
-												<div class="single_counter_item">
-													<h2 class="statistic-counter">236</h2>
-													<i class="icon icon-people-32"></i>
-													<p class="margin-top-20">HAPPY CLIENTS</p>  
-												</div>
-
-											</div>
-										</div>
-
-										<div class="single_counter">
-											<div class="col-sm-3 col-xs-12">
-												<div class="single_counter_item">
-													<h2 class="statistic-counter">365</h2>
-													<i class="icon icon-cup"></i>
-													<p class="margin-top-20">CUP OF COFFEE</p> 
-												</div>
-
-											</div>
-										</div> 
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>  <!-- End of counter section -->
-
-
-			<section id="othersservice" class="othersservice">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="main_othersservice_area sections">
-								<div class="row">
-									<div class="head_title">
-										<h3>会社情報</h3>
-										<div class="separator"></div>
-									</div>
-
-									<div class="main_othersservice_content">
-										<div class="col-sm-4">
-											<div class="single_othersservice">
-												<div class="single_othersservice_icon">
-													<h4><span><i class="fa fa-clock-o"></i></span> CREATIVE DESIGN</h4>
-												</div>
-												<div class="single_othersservice_content">
-													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col-sm-4">
-											<div class="single_othersservice">
-												<div class="single_othersservice_icon">
-													<h4> <span><i class="fa fa-picture-o"></i></span> WEB DEVELOPMENT</h4>
-												</div>
-												<div class="single_othersservice_content">
-													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-												</div>
-											</div>
-										</div>
-										<div class="col-sm-4">
-											<div class="single_othersservice">
-												<div class="single_othersservice_icon">
-													<h4> <span><i class="fa fa-television"></i></span> VIDEO EDITING</h4>
-												</div>
-												<div class="single_othersservice_content">
-													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-												</div>
-											</div>
-										</div>
-
-
-										<div class="col-sm-4">
-											<div class="single_othersservice">
-												<div class="single_othersservice_icon">
-													<h4> <span><i class="fa fa-object-group"></i></span> MARKETING</h4>
-												</div>
-												<div class="single_othersservice_content">
-													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-sm-4">
-											<div class="single_othersservice">
-												<div class="single_othersservice_icon">
-													<h4> <span><i class="fa fa-object-group"></i></span> PHOTOGRAPHY</h4>
-												</div>
-												<div class="single_othersservice_content">
-
-													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-												</div>
-											</div>
-										</div>
-
-										<div class="col-sm-4">
-											<div class="single_othersservice">
-												<div class="s_ot_i_area">
-													<div class="single_othersservice_icon">
-														<h4><span><i class="fa fa-object-group"></i></span> LOGO DESIGN</h4>
-													</div>
-												</div>
-												<div class="single_othersservice_content">
-
-													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-												</div>
-											</div>
-										</div>
-
-									</div>
-								</div> 
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section id="team" class="team">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="main_team sections">
-								<div class="row">
-									<div class="head_title">
-										<h3>会社情報</h3>
-										<div class="separator"></div>
-									</div>
-									<div id="main">
-										<section style="margin-top: 6em;">
-											<div class="compSec01_img" style="padding: 0;">
-												<img src="assets/images/compSec01_img01.png" style="width: 18%;" alt="会社概要" />
-											</div>
-											<div class="compSec01_conts" style="width: 90%">
-												<table>
-													<tbody>
-														<tr>
-															<th>社名</th>
-															<td>株式会社マインドセットリサーチ　（略称：MSR）</td>
-														</tr>
-														<tr>
-															<th>設立</th>
-															<td>2015年11月11日</td>
-														</tr>
-														<tr>
-															<th>所在地</th>
-															<td>〒170-0013 東京都豊島区東池袋2-39-2大住ビル5F</td>
-														</tr>
-														<tr>
-															<th>代表電話番号</th>
-															<td>03-5950-5683</td>
-														</tr>
-														<tr>
-															<th>役員</th>
-															<td>代表取締役　紙田　剛<br>取　締　役　松本　敦子</td>
-														</tr>
-														<tr>
-															<th>顧問</th>
-															<td>筑波大学名誉教授　/　株式会社ＳＤＳ　代表取締役社長<br>宗像　恒次 博士</td>
-														</tr>
-														<tr>
-															<th>大学発ベンチャー登録</th>
-															<td>筑波大学発ベンチャー<br>（<a href="http://www.sanrenhonbu.tsukuba.ac.jp/spin_offs/year/#h27" target="_blank">筑波大学産学連携本部ホームページ</a>）</td>
-														</tr>
-														<tr>
-															<th>主な事業内容</th>
-															<td>
-																<ul style="margin-left: 1em; list-style-type: square;">
-																	<li>心理学・脳科学をベースとしたメンタルヘルス対策、人材育成、組織マネジメントのコンサルティング・アドバイサリー</li>
-																	<li>メンタルヘルス対策の研修・トレーニング</li>
-																	<li>メンタルヘルスに関わる情報システム企画・開発・販売</li>
-																	<li>個人/組織の心理アセスメント、分析調査</li>
-																	<li>ＥＡＰ(従業員支援プログラム)サービス</li>
-																	<li>カウンセリングサービス</li>
-																	<li>メンタルヘルス専門家養成</li>
-																	<li>人材コンサルティング</li>
-																</ul>
-															</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-										</section>
-										<section style="margin-top: 3em;">
-											<div class="compSec02_img" style="padding: 0;">
-												<img src="assets/images/compSec02_img01.png" style="width: 28%;" alt="協力パートナー" />
-											</div>
-											<div class="compSec01_conts" style="width: 90%">
-												<table>
-													<tbody>
-														<tr>
-															<th><p>筑波大学発ベンチャー<br><a href="http://www.kksds.com/" target="_blank">株式会社SDS</a></p><br><p>代表取締役社長<br>宗像恒次 博士</p></th>
-															<td>
-																<p>筑波大学名誉教授宗像博士が開発したSATメソッドの普及目的として設立。SATカウンセラーの育成、国内外でのセミナー開催、SAT療法センターでの心理治療など。</p>
-																<br>
-																<p>宗像恒次博士が学会長を務める<a href="http://www.healthcounseling.org/" target="_blank">ヘルスカウンセリング学会</a>の公認ヘルスカウンセラーは、厚労省「心の耳」事業資格として認定を受けており、<a href="https://kokoro.mhlw.go.jp/qualification/" target="_blank">厚労省ホームページ</a>に掲載されています。</p>
-															</td>
-														</tr>
-														<tr>
-															<th><p>筑波大学<br>情報学群<br>情報メディア創成学類<br><a href="http://inolab.slis.tsukuba.ac.jp/" target="_blank">インタラクション研究室</a></p><br><p>井上智雄教授</p></th>
-															<td>人と人とのコミュニケーションや協同の理解に基づいて、インタラクションを拡張する研究・・・次世代社会情報環境の創出に向けた研究</td>
-														</tr>
-													</tbody>
-												</table>
-											</div>
-										</section>
-										<section>
-											<p style="margin-top: 6em;"><img src="assets/images/devSec00_img.png" class="main" style="width: 12%;" alt="論文" /></p>
-											<dl class="literature">
-												<dt>Virtual Reality Course Based on the SAT Counseling Method for Self-guided Mental Healthcare</dt>
-												<dd>Ito T,Kamita T,Matsumoto A,Inoue T and Munakata T, The Sixth IEEE International Conference on Healthcare Informatics, New York City(2018/06)</dd>
-												<dt>カウンセリング技法SAT法に基づくスマートフォン用デジタルコンテンツ</dt>
-												<dd>伊藤達哉,紙田剛,松本敦子,徐炯達,楊珍,宗像恒次,井上智雄,研究報告デジタルコンテンツクリエーション（DCC）, 2018-DCC-18, vol.37, 1-8, 2018-01-19, 情報処理学会.</dd>
-												<dt>VR（バーチャルリアリティ）を用いたSATセルフメンタルケアシステムの開発</dt>
-												<dd>松本敦子,紙田剛,井上智雄,橋本佐由理：Journal of Health Counseling, suppl, pp.36-37, 2017, ヘルスカウンセリング学会</dd>
-												<dt>SAT法に基づくセルフメンタルヘルスケアのVRによる実現</dt>
-												<dd>中西明日輝, 野口康人,中島寿哉, 楊珍, 松本敦子, 紙田剛, 宗像恒次, 井上智雄：, 研究報告デジタルコンテンツクリエーション（DCC）, 2017-DCC-15, vol.35, 1-8, 2017-01-13, 情報処理学会.</dd>
-											</dl>
-										</section>
-										<section>
-											<p style="margin-top: 6em;"><img src="assets/images/devSec01_img.png" class="main" style="width: 20%;" alt="研究開発" /></p>
-											<div style="padding: 1em;">当社では、株式会社SDSと筑波大学と協力して、システムやサービスの研究開発を行い、エビデンスに基づいたシステム、及び、サービスの提供を行っていきます。</div>
-											<div class="venture">
-												<a href="http://www.kksds.com/" target="_blank"><img src="assets/images/devSec01_sds_banner.png" class="banner" style="margin-bottom: 1em;" alt="筑波大学発ベンチャー 株式会社SDS" /></a>
-												<p>筑波大学発ベンチャー<br><a href="http://www.kksds.com/" target="_blank">株式会社ＳＤＳ</a></p>
-												<br>
-												<p>代表取締役社長　宗像恒次 博士</p>
-												<br>
-												<p>筑波大学大学院教授(現名誉教授) 宗像恒次 博士によって開発され、世界でからも評価を受けるカウンセリング技法、SATメソッドの普及目的として設立。SATカウンセラーの育成、SAT研修プログラムの開発・提供、日本や中国、ドイツなどでのセミナー開催、SAT療法センターでの心理治療など。</p>
-												<br>
-												<p>宗像代表が学会長を務める<a href="http://www.healthcounseling.org/" target="_blank">NPO法人ヘルスカウンセリング学会</a>の公認ヘルスカウンセラーは、厚労省「こころの耳」事業資格として認定を受け、<a href="https://kokoro.mhlw.go.jp/qualification/" target="_blank">厚労省ホームページ</a>に掲載されています。</p>
-												<br>
-												<div class="kokoronomimi"><a href="https://kokoro.mhlw.go.jp/qualification/" target="_blank"><img src="assets/images/kokoro_no_mimi.png" alt="厚生労働省 こころの耳" /></a></div>
-											</div>
-											<div class="interaction" style="margin-top: 1em;">
-												<a href="http://inolab.slis.tsukuba.ac.jp/" target="_blank"><img src="assets/images/devSec01_interaction_banner.png" class="banner" alt="筑波大学 インタラクション研究室" /></a>
-												<p>筑波大学<br>情報学群　情報メディア創成学類<br><a href="http://inolab.slis.tsukuba.ac.jp/" target="_blank">インタラクション研究室</a></p>
-												<br>
-												<p>井上智雄　教授</p>
-												<br>
-												<p>ユビキタスコンピューティングの時代。そこでは、コンピュータと人とのインタラクション（対話）も新しい形態へと設計し直すことが必要です。井上研究室では、人と人とのコミュニケーションや協同の理解に基づいて、インタラクションを拡張する研究を進め、次世代社会情報環境を創り出しています。</p>
-											</div>
-										</section>
-									</div>
-								</div>
-
-							</div><!-- End of main team contant -->
-						</div>
-					</div><!-- End of row -->
-				</div>
-			</section>
-
-			<section id="choose" class="choose">
-				<div class="container">
-					<div class="row">
-						<div class="main_choose sections">
-							<div class="col-sm-6">
-								<div class="head_title">
-									<h3>WHY CHOOSE US</h3>
-									<div class="separator"></div>
-								</div>
-								<div class="single_choose">
-									<div class="single_choose_acording">
-										<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-											<div class="panel panel-default">
-												<div class="panel-heading" role="tab" id="headingOne">
-													<h4 class="panel-title">
-														<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="collapsed">
-															<i class="fa fa-picture-o"></i> GREAT DESIGN 
-														</a>
-													</h4>
-												</div>
-												<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false" style="height: auto;">
-													<div class="panel-body">
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-														Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-														Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-														Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-													</div>
-												</div>
-											</div>
-											<div class="panel panel-default">
-												<div class="panel-heading" role="tab" id="headingTwo">
-													<h4 class="panel-title">
-														<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-															<i class="fa fa-map-signs"></i> RESPONSIVE DESIGN 
-														</a>
-													</h4>
-												</div>
-												<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo" aria-expanded="false">
-													<div class="panel-body">
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-														dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-														ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-														nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-													</div>
-												</div>
-											</div>
-											<div class="panel panel-default">
-												<div class="panel-heading" role="tab" id="headingThree">
-													<h4 class="panel-title">
-														<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-															<i class="fa fa-bullseye"></i> RATINA READY 
-														</a>
-													</h4>
-												</div>
-												<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false">
-													<div class="panel-body">
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-														dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-														ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-														nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-														culpa qui officia deserunt mollit anim id est laborum.
-													</div>
-												</div>
-											</div>
-											<div class="panel panel-default">
-												<div class="panel-heading" role="tab" id="headingThree">
-													<h4 class="panel-title">
-														<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefour" aria-expanded="false" aria-controls="collapseThree">
-															<i class="fa fa-umbrella"></i>FREE GOOGLE FONT 
-														</a>
-													</h4>
-												</div>
-												<div id="collapsefour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree" aria-expanded="false">
-													<div class="panel-body">
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-														dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-														ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-														nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-														culpa qui officia deserunt mollit anim id est laborum.
-													</div>
-												</div>
-											</div>
-											<div class="panel panel-default">
-												<div class="panel-heading" role="tab" id="headingThree">
-													<h4 class="panel-title">
-														<a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapsefive" aria-expanded="false" aria-controls="collapseThree">
-															<i class="fa fa-subway"></i>1170 PX GRID BASE 
-														</a>
-													</h4>
-												</div>
-												<div id="collapsefive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingfive" aria-expanded="false">
-													<div class="panel-body">
-														Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-														dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex 
-														ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-														nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-														culpa qui officia deserunt mollit anim id est laborum.
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-sm-6">
-								<div class="single_choose">
-									<div class="single_choose_img">
-										<img src="assets/images/choose.png" alt="">
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-
-			<section id="portfolio" class="portfolio">
-				<div class="container">
-					<div class="row">
-						<div class="main_portfolio">
-							<div class="col-sm-4">
-								<div class="head_title">
-									<h3>LATEST PROJECT</h3>
-									<div class="separator"></div>
-								</div>
-							</div>
-							<div class="col-sm-6 col-sm-offset-2">
-								<div id="filters" class="toolbar mb2 mt2">
-									<button class="btn-md fil-cat filter active" href=""  data-filter="all">SHOW ALL</button>
-									<button class="btn-md fil-cat filter" data-rel="web" data-filter=".web">PHOTOGRAPHY</button>
-									<button class="btn-md fil-cat filter" data-rel="flyers" data-filter=".flyers">BRANDING</button> 
-									<button class="btn-md fil-cat filter" data-rel="bcards" data-filter=".bcards">GRAPHIC DESIGN</button>
-									<div class="separator2"></div>
-								</div> 
-
-							</div>
-
-							<div style="clear:both;"></div>
-							<div id="portfoliowork">
-								<div class="single_portfolio tile scale-anm web grid-item-width2" >
-									<img src="assets/images/pf1.jpg" alt="" />
-									<div class="grid_item_overlay g_overlay_1">
-										<a href="assets/images/pf1.jpg" class="portfolio-img"> <i class="fa fa-link"></i></a>
-										<a href="#"> <i class="fa fa-search"></i></a>
-									</div>
-								</div>
-								<div class="single_portfolio tile scale-anm bcards" >
-									<img src="assets/images/pf2.jpg" alt="" />
-									<div class="grid_item_overlay">
-										<a href="assets/images/pf2.jpg" class="portfolio-img"> <i class="fa fa-link"></i></a>
-										<a href="#"> <i class="fa fa-search"></i></a>
-									</div>
-								</div>
-								<div class="single_portfolio tile scale-anm web ">
-									<img src="assets/images/pf3.jpg" alt="" />
-									<div class="grid_item_overlay">
-										<a href="assets/images/pf3.jpg" class="portfolio-img"> <i class="fa fa-link"></i></a>
-										<a href="#"> <i class="fa fa-search"></i></a>
-									</div>
-								</div>
-								<div class="single_portfolio tile scale-anm web" >
-									<img src="assets/images/pf4.jpg" alt="" />
-									<div class="grid_item_overlay">
-										<a href="assets/images/pf4.jpg" class="portfolio-img"> <i class="fa fa-link"></i></a>
-										<a href="#"> <i class="fa fa-search"></i></a>
-									</div>
-								</div>
-								<div class="single_portfolio tile scale-anm bcards" >
-									<img src="assets/images/pf8.jpg" alt="" />  
-									<div class="grid_item_overlay">
-										<a href="assets/images/pf8.jpg" class="portfolio-img"> <i class="fa fa-link"></i></a>
-										<a href="#"> <i class="fa fa-search"></i></a>
-									</div>
-								</div>
-								<div class="single_portfolio tile scale-anm web" >
-									<img src="assets/images/pf9.jpg" alt="" />
-									<div class="grid_item_overlay">
-										<a href="assets/images/pf9.jpg" class="portfolio-img"> 
-											<i class="fa fa-link"></i>
-										</a>
-										<a href="#"> 
-											<i class="fa fa-search"></i>
-										</a>
-									</div>
-								</div> 
-								<div class="single_portfolio tile scale-anm flyers">
-									<img src="assets/images/pf5.jpg" alt="" />
-									<div class="grid_item_overlay g_overlay_2">
-										<a href="assets/images/pf5.jpg" class="portfolio-img"> <i class="fa fa-link"></i></a>
-										<a href="#"> <i class="fa fa-search"></i></a>
-									</div>
-								</div>
-								<div class="single_portfolio tile scale-anm flyers">
-									<img src="assets/images/pf6.jpg" alt="" />
-									<div class="grid_item_overlay g_overlay_1">
-										<a href="assets/images/pf6.jpg" class="portfolio-img"> <i class="fa fa-link"></i></a>
-										<a href="#"> <i class="fa fa-search"></i></a>
-									</div>
-								</div>
-
-								<div class="single_portfolio tile scale-anm bcards" >
-									<img src="assets/images/pf7.jpg" alt="" />
-									<div class="grid_item_overlay">
-										<a href="assets/images/pf7.jpg" class="portfolio-img"> <i class="fa fa-link"></i></a>
-										<a href="#"> <i class="fa fa-search"></i></a>
-									</div>
-								</div>
-								<div class="single_portfolio tile scale-anm flyers">
-									<img src="assets/images/pf6.jpg" alt="" />
-									<div class="grid_item_overlay g_overlay_1">
-										<a href="assets/images/pf6.jpg" class="portfolio-img"> <i class="fa fa-link"></i></a>
-										<a href="#"> <i class="fa fa-search"></i></a>
-									</div>
-								</div>
-
-								<div class="single_portfolio tile scale-anm bcards" >
-									<img src="assets/images/pf7.jpg" alt="" />
-									<div class="grid_item_overlay">
-										<a href="assets/images/pf7.jpg" class="portfolio-img"> <i class="fa fa-link"></i></a>
-										<a href="#"> <i class="fa fa-search"></i></a>
-									</div>
-								</div>
-
-
-
-							</div>
-
-							<div style="clear:both;"></div>  
-						</div>
-					</div>
-				</div>
-			</section>
-
-
-		<!--<section id="portfolio" class="portfolio">
-						<div class="container">
-							<div class="row">
-								<div class="main_portfolio sections">
-									<div class="heading_filter_menu">
-										<div class="col-sm-4">
-											<div class="head_title">
-												<h3>LATEST PROJECT</h3>
-												<div class="separator"></div>
-											</div>
-										</div>
-										<div class="col-sm-8">
-											<div id="filters" class="toolbar mb2 mt2">
-												<button class="btn fil-cat filter active" href=""  data-filter="all">All</button>
-												<button class="btn fil-cat filter" data-rel="web" data-filter=".web">Websites</button>
-												<button class="btn fil-cat filter" data-rel="flyers" data-filter=".flyers">Flyers</button> 
-												<button class="btn fil-cat filter" data-rel="bcards" data-filter=".bcards">Business Cards</button>
-											</div>
-										</div>
-									</div>
-
-									<div class="main_portfolio_content text-center">
-										<div class="grid">
-											<div class="grid-item grid-item--width2">
-												<img src="assets/images/pf1.jpg" alt="" />
-												<div class="grid_item_overlay all_overlay">
-													<a href="assets/images/pf1.jpg" class="portfolio-img"> <i class="fa fa-picture-o"></i></a>
-												</div>
-											</div>
-											<div class="grid-item ">
-												<img src="assets/images/pf2.jpg" alt="" />
-												<div class="grid_item_overlay all_overlay">
-													<a href="assets/images/pf2.jpg" class="portfolio-img"> <i class="fa fa-picture-o"></i></a>
-												</div>
-											</div>
-											<div class="grid-item ">
-												<img src="assets/images/pf3.jpg" alt="" />
-												<div class="grid_item_overlay">
-													<a href="assets/images/pf1.jpg" class="portfolio-img"> <i class="fa fa-picture-o"></i></a>
-												</div>
-											</div>
-											<div class="grid-item ">
-												<img src="assets/images/pf4.jpg" alt="" />
-												<div class="grid_item_overlay">
-													<a href="assets/images/pf4.jpg" class="portfolio-img"> <i class="fa fa-picture-o"></i></a>
-												</div>
-											</div>
-											<div class="grid-item ">
-												<img src="assets/images/pf5.jpg" alt="" />
-												<div class="grid_item_overlay">
-													<a href="assets/images/pf5.jpg" class="portfolio-img"> <i class="fa fa-picture-o"></i></a>
-												</div>
-											</div>
-											<div class="grid-item grid-item--width2">
-												<img src="assets/images/pf6.jpg" alt="" />
-												<div class="grid_item_overlay">
-													<a href="assets/images/pf6.jpg" class="portfolio-img"> <i class="fa fa-picture-o"></i></a>
-												</div>
-											</div>
-											<div class="grid-item ">
-												<img src="assets/images/pf7.jpg" alt="" />
-												<div class="grid_item_overlay">
-													<a href="assets/images/pf7.jpg" class="portfolio-img"> <i class="fa fa-picture-o"></i></a>
-												</div>
-											</div>
-											<div class="grid-item ">
-												<img src="assets/images/pf8.jpg" alt="" />
-												<div class="grid_item_overlay">
-													<a href="assets/images/pf6.jpg" class="portfolio-img"> <i class="fa fa-picture-o"></i></a>
-												</div>
-											</div>
-											<div class="grid-item ">
-												<img src="assets/images/pf9.jpg" alt="" />
-												<div class="grid_item_overlay">
-													<a href="assets/images/pf7.jpg" class="portfolio-img"> <i class="fa fa-picture-o"></i></a>
-												</div>
-											</div>
-
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</section>
-				-->
-
-
-			<section id="testimonial" class="testimonial">
-				<div class="video_overlay">
-					<div class="container">
-						<div class="row">
-							<div class="main_testimonial sections text-center">
-								<div class="col-md-12" data-wow-delay="0.2s">
-									<div class="main_teastimonial_slider text-center">
-										<div class="single_testimonial">
-											<div class="row">
-												<div class="col-sm-8 col-sm-offset-2">
-													<i class="fa fa-quote-left"></i>
-													<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration 
-														in some form, by injected humour, or randomised words which don't look even slightly believable. 
-														If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing 
-														hidden in the middle of text. All the Lorem  ww</p>
-													<div class="single_test_author">
-														<h4>JANE GALADRIEL <span> -- CEO TENGKUREP</span></h4>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="single_testimonial">
-											<div class="row">
-												<div class="col-sm-8 col-sm-offset-2">
-													<i class="fa fa-quote-left"></i>
-													<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered 
-														alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-														If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing 
-														hidden in the middle of text. All the Lorem</p>
-													<div class="single_test_author">
-														<h4>JANE GALADRIEL <span> -- CEO TENGKUREP</span></h4>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="single_testimonial">
-											<div class="row">
-												<div class="col-sm-8 col-sm-offset-2">
-													<i class="fa fa-quote-left"></i>
-													<p>There are many variations of passages of Lorem Ipsum available, but the majority have 
-														suffered alteration in some form, by injected humour, or randomised words which don't look even 
-														slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there 
-														isn't anything embarrassing hidden in the middle of text. All the Lorem</p>
-													<div class="single_test_author">
-														<h4>JANE GALADRIEL <span> -- CEO TENGKUREP</span></h4>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-								</div>
-							</div>
-
-						</div>
-					</div>
-				</div>
-			</section>
-
-
-			<section id="clogo" class="clogo">
-				<div class="container">
-					<div class="row">
-						<div class="main_clogo sections text-center">
-							<div class="col-sm-2 col-xs-6"> 
-								<a href=""><img src="assets/images/clogo1.png" alt="" /></a>
-							</div>
-							<div class="col-sm-2 col-xs-6"> 
-								<a href=""><img src="assets/images/clogo2.png" alt="" /></a>
-							</div>
-							<div class="col-sm-2 col-xs-6"> 
-								<a href=""><img src="assets/images/clogo3.png" alt="" /></a>
-							</div>
-							<div class="col-sm-2 col-xs-6">
-								<a href=""><img src="assets/images/clogo4.png" alt="" /></a>
-							</div>
-							<div class="col-sm-2 col-xs-6"> 
-								<a href=""><img src="assets/images/clogo5.png" alt="" /></a>
-							</div>
-							<div class="col-sm-2 col-xs-6">
-								<a href=""><img src="assets/images/clogo9.png" alt="" /></a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section id="contact" class="contact">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="row">
-								<div class="contact_contant sections">
-									<div class="col-sm-6">
-
-										<div class="main_contact_info">
-											<div class="head_title">
-												<h3>お問合せ</h3>
-												<div class="separator"></div>
-											</div>
-											<div class="row">
-												<div class="contact_info_content">
-													<div class="col-sm-12">
-														<div class="single_contact_info">
-															<div class="single_info_icon">
-																<i class="fa fa-home"></i>
-															</div>
-															<div class="single_info_text">
-																<h3>住所</h3>
-																<p>〒170-0013 東京都豊島区東池袋2-39-2大住ビル5F</p>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-12">
-														<div class="single_contact_info">
-															<div class="single_info_icon">
-																<i class="fa fa-envelope-o"></i>
-															</div>
-															<div class="single_info_text">
-																<h3>メール</h3>
-																<p>info@mindset-research.co.jp</p>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-12">
-														<div class="single_contact_info">
-															<div class="single_info_icon">
-																<i class="fa fa-mobile"></i>
-															</div>
-															<div class="single_info_text">
-																<h3>代表電話番号</h3>
-																<p>03-5950-5683</p>
-															</div>
-														</div>
-													</div>
-													<div class="col-sm-12">
-														<div class="single_contact_info">
-															<div class="single_info_icon">
-																<i class="fa fa-clock-o"></i>
-															</div>
-															<div class="single_info_text">
-																<h3>営業時間</h3>
-																<p>平日10:00～17:00</p>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-
-									<div class="col-sm-6">
-										<div class="head_title">
-											<h3>メッセージ</h3>
-											<div class="separator"></div>
-										</div>
-										<div class="single_contant_left">
-											<form action="#" id="formid">
-												<!--<div class="col-lg-8 col-md-8 col-sm-10 col-lg-offset-2 col-md-offset-2 col-sm-offset-1">-->
-
-												<div class="row">
-													<div class="col-sm-6">
-														<div class="form-group">
-															<input type="text" class="form-control" name="name" placeholder="苗字" required="">
-														</div>
-													</div>
-													<div class="col-sm-6">
-														<div class="form-group">
-															<input type="text" class="form-control" name="name" placeholder="名前" required="">
-														</div>
-													</div>
-												</div>
-
-
-												<div class="row">
-													<div class="col-sm-6">
-														<div class="form-group">
-															<input type="email" class="form-control" name="email" placeholder="メール" required="">
-														</div>
-													</div>
-													<div class="col-sm-6">
-														<div class="form-group">
-															<input type="text" class="form-control" name="subject" placeholder="件名" required="">
-														</div>
-													</div>
-												</div>
-
-
-												<div class="form-group">
-													<textarea class="form-control" name="message" rows="8" placeholder="内容"></textarea>
-												</div>
-
-												<div class="">
-													<input type="submit" value="送信" class="btn btn-primary">
-												</div>
-												<!--</div>--> 
-											</form>
-										</div>
-									</div>
-
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>  <!-- End of contact section -->
-
-			<section id="maps" class="maps">
-				<div class="map-overlay">
-					<div class="container-fluid">
-						<div class="row">
-							<div class="main_maps text-center">
-								<div class="col-sm-12 no-padding">
-									<div class="map_canvas_icon">
-										<i class="fa fa-map-marker" onClick="showmap()"></i>
-										<h2 onClick="showmap()">アクセスマップ</h2>
-									</div>
-									<div id="map_canvas"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-			<section id="footer" class="footer_widget">
-				<div class="video_overlay">
-					<div class="container">
-						<div class="row">
-							<div class="col-sm-12">
-								<div class="row">
-									<div class="main_widget">
-										<div class="col-sm-3 col-xs-12">
-											<div class="single_widget wow fadeIn" data-wow-duration="800ms">
-												<div class="footer_logo">
-													<img src="assets/images/logo.png" alt="" />
-												</div>
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
-													labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-													nisi ut aliquip ex ea commodo consequat. </p>
-											</div>
-										</div>
-
-										<div class="col-sm-3  col-xs-12">
-											<div class="single_widget wow fadeIn" data-wow-duration="800ms">
-
-												<div class="footer_title">
-													<h4>SITEMAP</h4>
-													<div class="separator"></div>
-												</div>
-												<ul>
-													<li><a href="">Services</a></li>
-													<li><a href="">About Us</a></li>
-													<li><a href="">Our Team</a></li>
-													<li><a href="">Portfolio</a></li>
-												</ul> 
-											</div>
-										</div>
-
-										<div class="col-sm-3  col-xs-12">
-											<div class="single_widget wow fadeIn" data-wow-duration="800ms">
-
-												<div class="footer_title">
-													<h4>ACHIVES</h4>
-													<div class="separator"></div>
-												</div>
-												<ul>
-													<li><a href="">January 2015</a></li>
-													<li><a href="">February 2015</a></li>
-													<li><a href="">March 2015</a></li>
-													<li><a href="">April 2015</a></li>
-												</ul>
-											</div>
-										</div>
-
-										<div class="col-sm-3 col-xs-12">
-											<div class="single_widget wow fadeIn" data-wow-duration="800ms">
-
-												<div class="footer_title">
-													<h4>NEWSLETTER</h4>
-													<div class="separator"></div>
-												</div>
-
-												<div class="footer_subcribs_area">
-													<p>Sign up for our mailing list to get latest updates and offers.</p>
-													<form class="navbar-form navbar-left" role="search">
-														<div class="form-group">
-															<input type="text" class="form-control" placeholder="Search">
-															<button type="submit" class="submit_btn"></button>
-														</div>
-
-													</form>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-
-			<section class="footer">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="main_footer">
-								<div class="row">
-
-									<div class="col-sm-6 col-xs-12">
-										<div class="copyright_text">
-											<p class=" wow fadeInRight" data-wow-duration="1s">Copyright (C) 2018 mind set research Inc. All Rights Reserved.</p>
-										</div>
-									</div>
-
-									<div class="col-sm-6 col-xs-12">
-										<div class="flowus">
-											<a href=""><i class="fa fa-facebook"></i></a>
-											<a href=""><i class="fa fa-twitter"></i></a>
-											<a href=""><i class="fa fa-google-plus"></i></a>
-											<a href=""><i class="fa fa-instagram"></i></a>
-											<a href=""><i class="fa fa-youtube"></i></a>
-											<a href=""><i class="fa fa-dribbble"></i></a>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-
-		</div>
-
-		<!-- START SCROLL TO TOP  -->
-
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer id="footer" class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-wrapper">
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="footer-brand">
+								<img src="assets/images/logo01.png" alt="logo" width="250" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="copyright">
+								<p>Copyright (C) 2018 mind set research Inc. All Rights Reserved.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
 		<div class="scrollup">
 			<a href="#"><i class="fa fa-chevron-up"></i></a>
 		</div>
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
 
-		<script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-		<script src="assets/js/vendor/bootstrap.min.js"></script>
-
-		<script src="assets/js/jquery.magnific-popup.js"></script>
-		<script src="assets/js/jquery.mixitup.min.js"></script>
-		<script src="assets/js/jquery.easing.1.3.js"></script>
-		<script src="assets/js/jquery.masonry.min.js"></script>
-		<script src="assets/js/jquery.fancybox.pack.js"></script>
-
-		<!--<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>-->
-		<script src="http://maps.google.com/maps/api/js?AIzaSyCX0q604vbVEVdhb_pUo8qo_W7lox1pxi4"></script>
-		<script src="assets/js/gmaps.min.js"></script>
-
-		<script>
-			function showmap() {
-				var mapOptions = {
-					zoom: 8,
-					scrollwheel: false,
-					center: new google.maps.LatLng(135, 135),
-					mapTypeId: google.maps.MapTypeId.ROADMAP
-				};
-				var map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
-			}
-		</script>
-		<script src="js/jquery-3.1.1.slim.min.js"></script>
-		<script src="assets/js/plugins.js"></script>
-		<script src="assets/js/main.js"></script>
-
-	</body>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/modernizr.js"></script>
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>

@@ -17,53 +17,41 @@
 	font-weight: 600;
 }
 /*******************
-*sub-title
+*subTitle
 *******************/
 .subTitle{
-	padding: 0 0 20px 0;
+	display: inline-block;
 	width: 100%;
-	margin: 0 0 1em 0;
 }
-.subTitle h2{
+.subTitle h3{
 	font-size: 25px;
-	color: #545454;
-	font-weight: 600;
-	padding: 0 0 10px 0;
-}s
-.subTitle p{
-	font-size: 20px;
-	color: #ff7200;
+	color: #fc9c34;
 	font-weight: 600;
 }
-.subTitle .subTitleLogo{
-	background-image: url("img/mSwitch.png");
+.subTitle .subTitleLogo::before{
+	content: "";
+	padding: 0 100px;
+	margin: 0 30px 0 0;
+	background-image: url("../images/mSwitch.png");
 	background-repeat: no-repeat;
-	background-size: 18%;
 	background-position: left center;
+	background-size: 100%;
 }
-.subTitle .subTitleLogo p{
-	padding: 0 0 0 200px;
-}
-
-/*******************
-*separator
-*******************/
-
-.separator {
+.subTitle .separator {
 	height: 3px;
-	width: 340px;
+	width: 100%;
 	margin: 15px 0px;
 	background: #eeeeee;
 	position: relative;
 }
-.separator:after {
+.subTitle .separator:after {
 	content:"";
 	position: absolute;
 	left:0;
 	bottom:0;
 	height: 3px;
 	width: 100px;
-	background: #ff7200;
+	background: #fc9c34;
 }
 
 /*******************
@@ -134,38 +122,6 @@ table.table.table01 tr td{
 	padding: 0 0 10px 0;
 }
 
-/*******************
-*margin,padding adjust
-*******************/
-
-.mb{
-	margin-bottom: 3em;
-}
-
-/*******************
-*others
-*******************/
-.fl7{
-	position: relative;
-	float: left;
-	width: 70%;
-	padding: 0 15px 0 0;
-}
-.fl5{
-	position: relative;
-	float: left;
-	width: 25%;
-	padding: 0 0 0 15px;
-}
-.fr5{
-	position: relative;
-	float: right;
-	width: 25%;
-	padding: 0 0 0 15px;
-}
-.clearfix:after{
-	content: "";
-	display: block;
-	min-height: 1px;
-	clear: both;
+.community-edition-noHover{
+	
 }

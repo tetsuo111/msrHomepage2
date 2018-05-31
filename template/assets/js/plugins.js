@@ -49,7 +49,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
                                         
                                         
                                         
-//LocalScroll
+//LocalScroll                             
                                         /**
  * Copyright (c) 2007-2014 Ariel Flesler - aflesler<a>gmail<d>com | http://flesler.blogspot.com
  * Licensed under MIT
