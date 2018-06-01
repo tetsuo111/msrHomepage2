@@ -597,11 +597,18 @@ textarea::-ms-input-placeholder
     /*background:url(../images/homebg.jpg) no-repeat center center;:*/
 	background:url(../images/topImg01.png) no-repeat center center;
     color:#000;
+	/*
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	-ms-background-size:cover;
+	*/
+	background-size: auto;
+	-webkit-background-size:auto;
+	-moz-background-size:auto;
+	-o-background-size:auto;
+	-ms-background-size:auto;
 }
 .home-wrapper{
     padding:180px 0px;
@@ -683,7 +690,8 @@ textarea::-ms-input-placeholder
 }
 
 .single_features_right p{
-    font-size:18px;
+   /* font-size:18px;*/
+	font-size: 14px;
 }
 .single_features_right ul li{
     font-size:18px;
@@ -1688,7 +1696,7 @@ xkeyframes
 	-webkit-transition: opacity .5s, background-color .5s;
 }
 .scrollup:hover {
-	background: #82ca9c;
+	background: #fc9c34;
 	opacity: 1;
 }
 .scrollup i {
@@ -1703,7 +1711,94 @@ xkeyframes
 	text-decoration: none;
 
 }
-.list li{
-	padding-bottom: 40px;
+.list-group li{
+	padding-bottom: 30px;
+}
+
+.community-edition .image{
+	padding: 0 0 30px 0;
+}
+.textNoWrap{
+	white-space: nowrap;
+}
+.borderDesign01{
+	border-radius: 50px;
+}
+.borderDesign01:hover{
+	border: 1px solid #fc9c34;
+}
+.borderDesign02{
+	border-radius: 30px;
+}
+
+/*******************
+*subTitle
+*******************/
+.subTitle{
+	display: inline-block;
+	width: 100%;
+}
+.subTitle h3{
+	font-size: 25px;
+	color: #fc9c34;
+	font-weight: 600;
+}
+.subTitle .subTitleLogo::before{
+	content: "";
+	padding: 0 100px;
+	margin: 0 30px 0 0;
+	background-image: url("../images/mSwitch.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 100%;
+}
+.subTitle .separator {
+	height: 3px;
+	width: 100%;
+	margin: 15px 0px;
+	background: #eeeeee;
+	position: relative;
+}
+.subTitle .separator:after {
+	content:"";
+	position: absolute;
+	left:0;
+	bottom:0;
+	height: 3px;
+	width: 100px;
+	background: #fc9c34;
+}
+
+/*******************
+*list
+*******************/
+.list{}
+.list.list00{
+	list-style: none;
+}
+.list.list01{
+	padding: 0 0 0 40px;
+}
+.list.list01 li{
+	padding: 0 0 20px 0;
+}
+.list.list02{
+	list-style: none;
+	padding: 0 0 0 100px;
+}
+/*******************
+*table
+*******************/
+table.table tr th{
+	width: 25%;
+	font-weight: normal;
+}
+table.table tr th,
+table.table tr td{
+	padding: 1em;
+}
+
+.research .list-group h3{
+	font-size: 1.3rem;
 }
 

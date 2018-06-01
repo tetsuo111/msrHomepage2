@@ -132,14 +132,20 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.single_service_right h2 {
 	margin-bottom: 15px;
 	}
-
+	.training .image{
+		padding: 30px;
+	}
+	.training .image img{
+		width: 200px;
+	}
+	.subTitle .fs01{
+		font-size: 1.25rem;
+	}
 }
 
 
 
 @media (max-width: 320px) {
-
-
     html {
         font-size: 50%;
     }
@@ -158,5 +164,13 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 	.social-wrapper .social-contact {
     margin-left: 52px;
 	}
+	.training .image{
+		padding: 30px;
+	}
+	.training .image img{
+		width: 200px;
+	}
+	.subTitle .fs01{
+		font-size: 1.25rem;
 }
 
